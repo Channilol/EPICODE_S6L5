@@ -1,0 +1,21 @@
+@import "header";
+@import "mainHtml";
+@import "footer";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: #141414;
+    font-family: 'Inter', sans-serif;
+}
+
+.bottoneDropdown {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding: 5px 30px;
+    transition: background-color 0.5s ease;
+}
+
+.bottoneDropdown:hover {
+    background-color: rgb(53, 53, 53);
+}
